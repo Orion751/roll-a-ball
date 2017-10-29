@@ -35,6 +35,11 @@ public class PlayerController : MonoBehaviour {
 	{
 		secondsLeft -= Time.deltaTime;
 
+		if (secondsLeft < 0)
+		{
+			resultText.text = "You Lose.";
+		}
+
 		timerText.text = "Time Left: " + secondsLeft.ToString ()
 			+ " Seconds";
 	}
