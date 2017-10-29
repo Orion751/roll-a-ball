@@ -5,7 +5,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public float speed;
-	public int secondsLeft;
+	public float secondsLeft;
 	public Text countText;
 	public Text winText;
 	public Text timerText;
