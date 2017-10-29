@@ -69,3 +69,6 @@ Assets/Editor/Image Effects
 # GITEYE
 *.project
 
+# Builds
+Builds
+
