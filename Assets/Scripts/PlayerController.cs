@@ -33,7 +33,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update ()
 	{
-
+		timerText.text = "Time Left: " + secondsLeft.ToString ()
+			+ " Seconds";
 	}
 
 	void OnTriggerEnter(Collider other)
