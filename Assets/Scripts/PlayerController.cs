@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update ()
 	{
+		secondsLeft -= Time.deltaTime;
+
 		timerText.text = "Time Left: " + secondsLeft.ToString ()
 			+ " Seconds";
 	}
