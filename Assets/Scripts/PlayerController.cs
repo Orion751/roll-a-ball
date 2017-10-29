@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		secondsLeft -= Time.deltaTime;
 
-		if (secondsLeft < 0)
+		if (secondsLeft < 0 && count < 3)
 		{
 			resultText.text = "You Lose.";
 		}
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour {
 	void SetCountText ()
 	{
 		countText.text = "Count: " + count.ToString ();
-		if (count >= 3)
+		if (count >= 3 && secondsLeft >= 0)
 		{
 			resultText.text = "You Win!";
 		}
