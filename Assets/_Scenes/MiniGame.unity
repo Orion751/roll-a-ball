@@ -1457,7 +1457,7 @@ MonoBehaviour:
   speed: 10
   secondsLeft: 5
   countText: {fileID: 2134433394}
-  winText: {fileID: 1516813524}
+  resultText: {fileID: 1516813524}
   timerText: {fileID: 911555492}
 --- !u!54 &1295728003
 Rigidbody:
