@@ -1,0 +1,11 @@
+Update description
+
+Add topics
+
+Find out what the following files are all about, and if they are needed or useful for the repo:
+  ProjectSettings/ClusterInputManager.asset
+  ProjectSettings/UnityConnectSettings.asset
+  Try re-cloning the repo and deleting these files
+  Check if there's any difference
+
+Look through .gitignore options
