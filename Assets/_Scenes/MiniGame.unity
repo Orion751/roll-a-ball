@@ -1455,7 +1455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  secondsLeft: 0
+  secondsLeft: 5
   countText: {fileID: 2134433394}
   winText: {fileID: 1516813524}
   timerText: {fileID: 0}
